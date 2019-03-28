@@ -1,3 +1,20 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    color: #ccc;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
 .cis260special {
     color: #800dbe
 }
@@ -14,3 +31,8 @@ flex-direction: column}
     header{flex direction: column;}
 
 }
+
+a:hover {
+    color: #aaa;
+}
+
